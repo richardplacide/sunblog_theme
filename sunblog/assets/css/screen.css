@@ -188,7 +188,7 @@ h4, h5, h6 {
     text-rendering: optimizeLegibility;
     line-height: 1;
     margin-top: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 h1 {
@@ -452,11 +452,11 @@ margin on the iframe, cause it breaks stuff. */
     position: relative;
     display: table;
     width: 100%;
-    height: 50%; /* orig: 60% */
+    height: 30%;
     margin-bottom: 5rem;
     text-align: center;
     color: #000;
-    background: #fc0 no-repeat center center; /* orig: 303538 */
+    background: #fc0 no-repeat center center;
     background-size: cover;
 }
 
@@ -485,9 +485,8 @@ margin on the iframe, cause it breaks stuff. */
 
 .blog-description {
     margin: 0;
-    font-size: 1.8rem;
-    line-height: 1.5em;
-    font-weight: 300;
+    font-size: 3rem;
+    line-height: 1em;
     font-family: 'Josefin Sans', serif;
     letter-spacing: 0;
     text-shadow: 0 1px 3px rgba(0,0,0,0.15);
