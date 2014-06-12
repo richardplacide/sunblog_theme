@@ -492,6 +492,33 @@ margin on the iframe, cause it breaks stuff. */
 
 }
 
+.site-head-links {
+    font-size: 2.5rem;
+    line-height: 1em;
+    font-family: 'Josefin Sans', serif;
+
+}
+
+.site-head-links a:link, .site-head-links a:visited {
+    text-decoration: none;
+    color: rgba(255,255,255,.8);
+}
+
+.site-head-links a:hover {
+    color:#fff;
+    text-decoration: underline;
+}
+
+.site-head-links ul {
+  list-style: none;
+}
+
+.site-head-links li {
+  display: inline;
+  padding-right: 20px;
+
+}
+
 /* Every post, on every page, gets this style on its <article> tag */
 .post {
     position: relative;
